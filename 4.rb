@@ -34,7 +34,7 @@ def is_pallindrome? num
   true
 end
 
-def max_palindrome min, max
+def max_pallindrome min, max
   (min..max).reverse_each do |i|
     (min..i).reverse_each do |j|
       product = i * j
