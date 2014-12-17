@@ -19,8 +19,8 @@ def is_prime? num
 end
 
 def ith_prime i
-  return 1 if i == 1
-  j  = 1
+  return 2 if i == 1
+  j = 1
   primes = 1
 
   while primes < i
